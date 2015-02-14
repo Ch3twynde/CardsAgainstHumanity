@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D7343201A761AC9000D0693 /* CHPlayerCardsTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D73431E1A761AC9000D0693 /* CHPlayerCardsTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D7343211A761AC9000D0693 /* CHPlayerCardsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D73431F1A761AC9000D0693 /* CHPlayerCardsTableViewController.m */; };
+		7D766F841A72F8E800AC8841 /* Black Pages in Resources */ = {isa = PBXBuildFile; fileRef = 7D766F821A72F8E800AC8841 /* Black Pages */; };
+		7D766F851A72F8E800AC8841 /* White Pages in Resources */ = {isa = PBXBuildFile; fileRef = 7D766F831A72F8E800AC8841 /* White Pages */; };
+		7D766F881A730AA200AC8841 /* CHWhiteCard.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D766F861A730AA200AC8841 /* CHWhiteCard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D766F891A730AA200AC8841 /* CHWhiteCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D766F871A730AA200AC8841 /* CHWhiteCard.m */; };
+		7D766F8C1A730AB600AC8841 /* CHBlackCard.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D766F8A1A730AB600AC8841 /* CHBlackCard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D766F8D1A730AB600AC8841 /* CHBlackCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D766F8B1A730AB600AC8841 /* CHBlackCard.m */; };
+		7D766F8F1A730CD100AC8841 /* Card.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D766F8E1A730CD100AC8841 /* Card.xib */; };
+		7D766F921A730EB900AC8841 /* CHCardView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D766F901A730EB900AC8841 /* CHCardView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D766F931A730EB900AC8841 /* CHCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D766F911A730EB900AC8841 /* CHCardView.m */; };
+		7D766F961A73620000AC8841 /* CHHand.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D766F941A73620000AC8841 /* CHHand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D766F971A73620000AC8841 /* CHHand.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D766F951A73620000AC8841 /* CHHand.m */; };
+		7D766F9A1A7365AE00AC8841 /* CHRound.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D766F981A7365AE00AC8841 /* CHRound.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D766F9B1A7365AE00AC8841 /* CHRound.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D766F991A7365AE00AC8841 /* CHRound.m */; };
+		7D766F9E1A7365BE00AC8841 /* CHGame.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D766F9C1A7365BE00AC8841 /* CHGame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D766F9F1A7365BE00AC8841 /* CHGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D766F9D1A7365BE00AC8841 /* CHGame.m */; };
+		7D766FA21A7365D200AC8841 /* CHPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D766FA01A7365D200AC8841 /* CHPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D766FA31A7365D200AC8841 /* CHPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D766FA11A7365D200AC8841 /* CHPlayer.m */; };
+		7D79A34B1A8F20B5007DE371 /* CHPlayersTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D79A3491A8F20B5007DE371 /* CHPlayersTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D79A34C1A8F20B5007DE371 /* CHPlayersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D79A34A1A8F20B5007DE371 /* CHPlayersTableViewController.m */; };
+		7D815F5E1A74A9920046A2BF /* CHArrayAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D815F5C1A74A9920046A2BF /* CHArrayAdditions.h */; };
+		7D815F5F1A74A9920046A2BF /* CHArrayAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D815F5D1A74A9920046A2BF /* CHArrayAdditions.m */; };
+		7D86E2D11A78CF0F009A8168 /* CHChosenCardsTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D86E2CF1A78CF0F009A8168 /* CHChosenCardsTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D86E2D21A78CF0F009A8168 /* CHChosenCardsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D86E2D01A78CF0F009A8168 /* CHChosenCardsTableViewController.m */; };
+		7D9EAFFA1A4E619000D6F4D8 /* coh-test.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D9EAFF91A4E619000D6F4D8 /* coh-test.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D9EB0001A4E619000D6F4D8 /* coh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D9EAFF41A4E619000D6F4D8 /* coh.framework */; };
+		7D9EB0071A4E619000D6F4D8 /* coh_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9EB0061A4E619000D6F4D8 /* coh_testTests.m */; };
+		7D9EB0121A4E61C800D6F4D8 /* CHBlackDeck.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D9EB0101A4E61C800D6F4D8 /* CHBlackDeck.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D9EB0131A4E61C800D6F4D8 /* CHBlackDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9EB0111A4E61C800D6F4D8 /* CHBlackDeck.m */; };
+		7D9EB0161A4E626400D6F4D8 /* CHWhiteDeck.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D9EB0141A4E626400D6F4D8 /* CHWhiteDeck.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D9EB0171A4E626400D6F4D8 /* CHWhiteDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9EB0151A4E626400D6F4D8 /* CHWhiteDeck.m */; };
+		7D9EB01A1A4E627D00D6F4D8 /* CHCard.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D9EB0181A4E627D00D6F4D8 /* CHCard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D9EB01B1A4E627D00D6F4D8 /* CHCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9EB0191A4E627D00D6F4D8 /* CHCard.m */; };
+		7D9EB01D1A4E62E200D6F4D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D9EB01C1A4E62E200D6F4D8 /* Foundation.framework */; };
+		7D9EB0211A4F172E00D6F4D8 /* CHDeck.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D9EB01F1A4F172E00D6F4D8 /* CHDeck.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D9EB0221A4F172E00D6F4D8 /* CHDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9EB0201A4F172E00D6F4D8 /* CHDeck.m */; };
+		7D9EB05A1A4F270D00D6F4D8 /* CardsAgainstHumanity.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D9EB0591A4F26BB00D6F4D8 /* CardsAgainstHumanity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DB7CBEC1A8FC25800B4AEF9 /* CHChosenCardsHeaderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DB7CBEA1A8FC25800B4AEF9 /* CHChosenCardsHeaderViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DB7CBED1A8FC25800B4AEF9 /* CHChosenCardsHeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB7CBEB1A8FC25800B4AEF9 /* CHChosenCardsHeaderViewController.m */; };
+		7DB7CBF01A8FFBEC00B4AEF9 /* CHStaticTableHeaderWrapperViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DB7CBEE1A8FFBEC00B4AEF9 /* CHStaticTableHeaderWrapperViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DB7CBF11A8FFBEC00B4AEF9 /* CHStaticTableHeaderWrapperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB7CBEF1A8FFBEC00B4AEF9 /* CHStaticTableHeaderWrapperViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D9EB0011A4E619000D6F4D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D9EAFEB1A4E619000D6F4D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D9EAFF31A4E619000D6F4D8;
+			remoteInfo = "coh-test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D73431E1A761AC9000D0693 /* CHPlayerCardsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHPlayerCardsTableViewController.h; sourceTree = "<group>"; };
+		7D73431F1A761AC9000D0693 /* CHPlayerCardsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHPlayerCardsTableViewController.m; sourceTree = "<group>"; };
+		7D766F821A72F8E800AC8841 /* Black Pages */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Black Pages"; path = "../../Cards Against Humanity/Black Pages"; sourceTree = "<group>"; };
+		7D766F831A72F8E800AC8841 /* White Pages */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "White Pages"; path = "../../Cards Against Humanity/White Pages"; sourceTree = "<group>"; };
+		7D766F861A730AA200AC8841 /* CHWhiteCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHWhiteCard.h; sourceTree = "<group>"; };
+		7D766F871A730AA200AC8841 /* CHWhiteCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHWhiteCard.m; sourceTree = "<group>"; };
+		7D766F8A1A730AB600AC8841 /* CHBlackCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHBlackCard.h; sourceTree = "<group>"; };
+		7D766F8B1A730AB600AC8841 /* CHBlackCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHBlackCard.m; sourceTree = "<group>"; };
+		7D766F8E1A730CD100AC8841 /* Card.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Card.xib; sourceTree = "<group>"; };
+		7D766F901A730EB900AC8841 /* CHCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCardView.h; sourceTree = "<group>"; };
+		7D766F911A730EB900AC8841 /* CHCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCardView.m; sourceTree = "<group>"; };
+		7D766F941A73620000AC8841 /* CHHand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHHand.h; sourceTree = "<group>"; };
+		7D766F951A73620000AC8841 /* CHHand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHHand.m; sourceTree = "<group>"; };
+		7D766F981A7365AE00AC8841 /* CHRound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHRound.h; sourceTree = "<group>"; };
+		7D766F991A7365AE00AC8841 /* CHRound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHRound.m; sourceTree = "<group>"; };
+		7D766F9C1A7365BE00AC8841 /* CHGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHGame.h; sourceTree = "<group>"; };
+		7D766F9D1A7365BE00AC8841 /* CHGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHGame.m; sourceTree = "<group>"; };
+		7D766FA01A7365D200AC8841 /* CHPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHPlayer.h; sourceTree = "<group>"; };
+		7D766FA11A7365D200AC8841 /* CHPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHPlayer.m; sourceTree = "<group>"; };
+		7D79A3491A8F20B5007DE371 /* CHPlayersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHPlayersTableViewController.h; sourceTree = "<group>"; };
+		7D79A34A1A8F20B5007DE371 /* CHPlayersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHPlayersTableViewController.m; sourceTree = "<group>"; };
+		7D815F5C1A74A9920046A2BF /* CHArrayAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHArrayAdditions.h; sourceTree = "<group>"; };
+		7D815F5D1A74A9920046A2BF /* CHArrayAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHArrayAdditions.m; sourceTree = "<group>"; };
+		7D86E2CF1A78CF0F009A8168 /* CHChosenCardsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHChosenCardsTableViewController.h; sourceTree = "<group>"; };
+		7D86E2D01A78CF0F009A8168 /* CHChosenCardsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHChosenCardsTableViewController.m; sourceTree = "<group>"; };
+		7D9EAFF41A4E619000D6F4D8 /* coh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = coh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D9EAFF81A4E619000D6F4D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D9EAFF91A4E619000D6F4D8 /* coh-test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "coh-test.h"; sourceTree = "<group>"; };
+		7D9EAFFF1A4E619000D6F4D8 /* coh-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "coh-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D9EB0051A4E619000D6F4D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D9EB0061A4E619000D6F4D8 /* coh_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = coh_testTests.m; sourceTree = "<group>"; };
+		7D9EB0101A4E61C800D6F4D8 /* CHBlackDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHBlackDeck.h; sourceTree = "<group>"; };
+		7D9EB0111A4E61C800D6F4D8 /* CHBlackDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHBlackDeck.m; sourceTree = "<group>"; };
+		7D9EB0141A4E626400D6F4D8 /* CHWhiteDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHWhiteDeck.h; sourceTree = "<group>"; };
+		7D9EB0151A4E626400D6F4D8 /* CHWhiteDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHWhiteDeck.m; sourceTree = "<group>"; };
+		7D9EB0181A4E627D00D6F4D8 /* CHCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCard.h; sourceTree = "<group>"; };
+		7D9EB0191A4E627D00D6F4D8 /* CHCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCard.m; sourceTree = "<group>"; };
+		7D9EB01C1A4E62E200D6F4D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7D9EB01E1A4E631000D6F4D8 /* PCH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCH.pch; sourceTree = "<group>"; };
+		7D9EB01F1A4F172E00D6F4D8 /* CHDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHDeck.h; sourceTree = "<group>"; };
+		7D9EB0201A4F172E00D6F4D8 /* CHDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHDeck.m; sourceTree = "<group>"; };
+		7D9EB0591A4F26BB00D6F4D8 /* CardsAgainstHumanity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardsAgainstHumanity.h; sourceTree = "<group>"; };
+		7DB7CBEA1A8FC25800B4AEF9 /* CHChosenCardsHeaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHChosenCardsHeaderViewController.h; sourceTree = "<group>"; };
+		7DB7CBEB1A8FC25800B4AEF9 /* CHChosenCardsHeaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHChosenCardsHeaderViewController.m; sourceTree = "<group>"; };
+		7DB7CBEE1A8FFBEC00B4AEF9 /* CHStaticTableHeaderWrapperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHStaticTableHeaderWrapperViewController.h; sourceTree = "<group>"; };
+		7DB7CBEF1A8FFBEC00B4AEF9 /* CHStaticTableHeaderWrapperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHStaticTableHeaderWrapperViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D9EAFF01A4E619000D6F4D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D9EB01D1A4E62E200D6F4D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D9EAFFC1A4E619000D6F4D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D9EB0001A4E619000D6F4D8 /* coh.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D9EAFEA1A4E619000D6F4D8 = {
+			isa = PBXGroup;
+			children = (
+				7D9EB01C1A4E62E200D6F4D8 /* Foundation.framework */,
+				7D9EAFF61A4E619000D6F4D8 /* coh-test */,
+				7D9EB0031A4E619000D6F4D8 /* coh-testTests */,
+				7D9EAFF51A4E619000D6F4D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D9EAFF51A4E619000D6F4D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D9EAFF41A4E619000D6F4D8 /* coh.framework */,
+				7D9EAFFF1A4E619000D6F4D8 /* coh-testTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D9EAFF61A4E619000D6F4D8 /* coh-test */ = {
+			isa = PBXGroup;
+			children = (
+				7D9EAFF91A4E619000D6F4D8 /* coh-test.h */,
+				7D9EB0591A4F26BB00D6F4D8 /* CardsAgainstHumanity.h */,
+				7D766F8E1A730CD100AC8841 /* Card.xib */,
+				7D815F5C1A74A9920046A2BF /* CHArrayAdditions.h */,
+				7D815F5D1A74A9920046A2BF /* CHArrayAdditions.m */,
+				7D9EB0101A4E61C800D6F4D8 /* CHBlackDeck.h */,
+				7D9EB0111A4E61C800D6F4D8 /* CHBlackDeck.m */,
+				7D9EB0141A4E626400D6F4D8 /* CHWhiteDeck.h */,
+				7D9EB0151A4E626400D6F4D8 /* CHWhiteDeck.m */,
+				7D9EB01F1A4F172E00D6F4D8 /* CHDeck.h */,
+				7D9EB0201A4F172E00D6F4D8 /* CHDeck.m */,
+				7D766F941A73620000AC8841 /* CHHand.h */,
+				7D766F951A73620000AC8841 /* CHHand.m */,
+				7D766F981A7365AE00AC8841 /* CHRound.h */,
+				7D766F991A7365AE00AC8841 /* CHRound.m */,
+				7D766F9C1A7365BE00AC8841 /* CHGame.h */,
+				7D766F9D1A7365BE00AC8841 /* CHGame.m */,
+				7D766FA01A7365D200AC8841 /* CHPlayer.h */,
+				7D766FA11A7365D200AC8841 /* CHPlayer.m */,
+				7D73431E1A761AC9000D0693 /* CHPlayerCardsTableViewController.h */,
+				7D73431F1A761AC9000D0693 /* CHPlayerCardsTableViewController.m */,
+				7D86E2CF1A78CF0F009A8168 /* CHChosenCardsTableViewController.h */,
+				7D86E2D01A78CF0F009A8168 /* CHChosenCardsTableViewController.m */,
+				7DB7CBEE1A8FFBEC00B4AEF9 /* CHStaticTableHeaderWrapperViewController.h */,
+				7DB7CBEF1A8FFBEC00B4AEF9 /* CHStaticTableHeaderWrapperViewController.m */,
+				7D79A3491A8F20B5007DE371 /* CHPlayersTableViewController.h */,
+				7D79A34A1A8F20B5007DE371 /* CHPlayersTableViewController.m */,
+				7DB7CBEA1A8FC25800B4AEF9 /* CHChosenCardsHeaderViewController.h */,
+				7DB7CBEB1A8FC25800B4AEF9 /* CHChosenCardsHeaderViewController.m */,
+				7D766F901A730EB900AC8841 /* CHCardView.h */,
+				7D766F911A730EB900AC8841 /* CHCardView.m */,
+				7D766F8A1A730AB600AC8841 /* CHBlackCard.h */,
+				7D766F8B1A730AB600AC8841 /* CHBlackCard.m */,
+				7D766F861A730AA200AC8841 /* CHWhiteCard.h */,
+				7D766F871A730AA200AC8841 /* CHWhiteCard.m */,
+				7D9EB0181A4E627D00D6F4D8 /* CHCard.h */,
+				7D9EB0191A4E627D00D6F4D8 /* CHCard.m */,
+				7D9EAFF71A4E619000D6F4D8 /* Supporting Files */,
+			);
+			path = "coh-test";
+			sourceTree = "<group>";
+		};
+		7D9EAFF71A4E619000D6F4D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D766F821A72F8E800AC8841 /* Black Pages */,
+				7D766F831A72F8E800AC8841 /* White Pages */,
+				7D9EAFF81A4E619000D6F4D8 /* Info.plist */,
+				7D9EB01E1A4E631000D6F4D8 /* PCH.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D9EB0031A4E619000D6F4D8 /* coh-testTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D9EB0061A4E619000D6F4D8 /* coh_testTests.m */,
+				7D9EB0041A4E619000D6F4D8 /* Supporting Files */,
+			);
+			path = "coh-testTests";
+			sourceTree = "<group>";
+		};
+		7D9EB0041A4E619000D6F4D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D9EB0051A4E619000D6F4D8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7D9EAFF11A4E619000D6F4D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D9EB0121A4E61C800D6F4D8 /* CHBlackDeck.h in Headers */,
+				7D9EB0161A4E626400D6F4D8 /* CHWhiteDeck.h in Headers */,
+				7D9EB0211A4F172E00D6F4D8 /* CHDeck.h in Headers */,
+				7D766F961A73620000AC8841 /* CHHand.h in Headers */,
+				7D86E2D11A78CF0F009A8168 /* CHChosenCardsTableViewController.h in Headers */,
+				7D79A34B1A8F20B5007DE371 /* CHPlayersTableViewController.h in Headers */,
+				7D766F9A1A7365AE00AC8841 /* CHRound.h in Headers */,
+				7DB7CBF01A8FFBEC00B4AEF9 /* CHStaticTableHeaderWrapperViewController.h in Headers */,
+				7DB7CBEC1A8FC25800B4AEF9 /* CHChosenCardsHeaderViewController.h in Headers */,
+				7D7343201A761AC9000D0693 /* CHPlayerCardsTableViewController.h in Headers */,
+				7D766F9E1A7365BE00AC8841 /* CHGame.h in Headers */,
+				7D766FA21A7365D200AC8841 /* CHPlayer.h in Headers */,
+				7D815F5E1A74A9920046A2BF /* CHArrayAdditions.h in Headers */,
+				7D766F921A730EB900AC8841 /* CHCardView.h in Headers */,
+				7D766F8C1A730AB600AC8841 /* CHBlackCard.h in Headers */,
+				7D766F881A730AA200AC8841 /* CHWhiteCard.h in Headers */,
+				7D9EB01A1A4E627D00D6F4D8 /* CHCard.h in Headers */,
+				7D9EB05A1A4F270D00D6F4D8 /* CardsAgainstHumanity.h in Headers */,
+				7D9EAFFA1A4E619000D6F4D8 /* coh-test.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7D9EAFF31A4E619000D6F4D8 /* coh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D9EB00A1A4E619000D6F4D8 /* Build configuration list for PBXNativeTarget "coh" */;
+			buildPhases = (
+				7D9EAFEF1A4E619000D6F4D8 /* Sources */,
+				7D9EAFF01A4E619000D6F4D8 /* Frameworks */,
+				7D9EAFF11A4E619000D6F4D8 /* Headers */,
+				7D9EAFF21A4E619000D6F4D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = coh;
+			productName = "coh-test";
+			productReference = 7D9EAFF41A4E619000D6F4D8 /* coh.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7D9EAFFE1A4E619000D6F4D8 /* coh-testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D9EB00D1A4E619000D6F4D8 /* Build configuration list for PBXNativeTarget "coh-testTests" */;
+			buildPhases = (
+				7D9EAFFB1A4E619000D6F4D8 /* Sources */,
+				7D9EAFFC1A4E619000D6F4D8 /* Frameworks */,
+				7D9EAFFD1A4E619000D6F4D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D9EB0021A4E619000D6F4D8 /* PBXTargetDependency */,
+			);
+			name = "coh-testTests";
+			productName = "coh-testTests";
+			productReference = 7D9EAFFF1A4E619000D6F4D8 /* coh-testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D9EAFEB1A4E619000D6F4D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = ensighten;
+				TargetAttributes = {
+					7D9EAFF31A4E619000D6F4D8 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					7D9EAFFE1A4E619000D6F4D8 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 7D9EAFEE1A4E619000D6F4D8 /* Build configuration list for PBXProject "coh-test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7D9EAFEA1A4E619000D6F4D8;
+			productRefGroup = 7D9EAFF51A4E619000D6F4D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D9EAFF31A4E619000D6F4D8 /* coh */,
+				7D9EAFFE1A4E619000D6F4D8 /* coh-testTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D9EAFF21A4E619000D6F4D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D766F851A72F8E800AC8841 /* White Pages in Resources */,
+				7D766F8F1A730CD100AC8841 /* Card.xib in Resources */,
+				7D766F841A72F8E800AC8841 /* Black Pages in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D9EAFFD1A4E619000D6F4D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D9EAFEF1A4E619000D6F4D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D766FA31A7365D200AC8841 /* CHPlayer.m in Sources */,
+				7D9EB0131A4E61C800D6F4D8 /* CHBlackDeck.m in Sources */,
+				7D766F971A73620000AC8841 /* CHHand.m in Sources */,
+				7D9EB0221A4F172E00D6F4D8 /* CHDeck.m in Sources */,
+				7D766F8D1A730AB600AC8841 /* CHBlackCard.m in Sources */,
+				7D79A34C1A8F20B5007DE371 /* CHPlayersTableViewController.m in Sources */,
+				7D766F931A730EB900AC8841 /* CHCardView.m in Sources */,
+				7D815F5F1A74A9920046A2BF /* CHArrayAdditions.m in Sources */,
+				7D766F9B1A7365AE00AC8841 /* CHRound.m in Sources */,
+				7D9EB01B1A4E627D00D6F4D8 /* CHCard.m in Sources */,
+				7D9EB0171A4E626400D6F4D8 /* CHWhiteDeck.m in Sources */,
+				7D86E2D21A78CF0F009A8168 /* CHChosenCardsTableViewController.m in Sources */,
+				7D766F9F1A7365BE00AC8841 /* CHGame.m in Sources */,
+				7D7343211A761AC9000D0693 /* CHPlayerCardsTableViewController.m in Sources */,
+				7DB7CBED1A8FC25800B4AEF9 /* CHChosenCardsHeaderViewController.m in Sources */,
+				7D766F891A730AA200AC8841 /* CHWhiteCard.m in Sources */,
+				7DB7CBF11A8FFBEC00B4AEF9 /* CHStaticTableHeaderWrapperViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D9EAFFB1A4E619000D6F4D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D9EB0071A4E619000D6F4D8 /* coh_testTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D9EB0021A4E619000D6F4D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D9EAFF31A4E619000D6F4D8 /* coh */;
+			targetProxy = 7D9EB0011A4E619000D6F4D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7D9EB0081A4E619000D6F4D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D9EB0091A4E619000D6F4D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7D9EB00B1A4E619000D6F4D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "coh-test/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7D9EB00C1A4E619000D6F4D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "coh-test/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7D9EB00E1A4E619000D6F4D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "coh-testTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7D9EB00F1A4E619000D6F4D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "coh-testTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D9EAFEE1A4E619000D6F4D8 /* Build configuration list for PBXProject "coh-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D9EB0081A4E619000D6F4D8 /* Debug */,
+				7D9EB0091A4E619000D6F4D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D9EB00A1A4E619000D6F4D8 /* Build configuration list for PBXNativeTarget "coh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D9EB00B1A4E619000D6F4D8 /* Debug */,
+				7D9EB00C1A4E619000D6F4D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D9EB00D1A4E619000D6F4D8 /* Build configuration list for PBXNativeTarget "coh-testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D9EB00E1A4E619000D6F4D8 /* Debug */,
+				7D9EB00F1A4E619000D6F4D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D9EAFEB1A4E619000D6F4D8 /* Project object */;
+}
