@@ -23,7 +23,10 @@
 #import <coh/CHPlayerCardsTableViewController.h>
 #import <coh/CHChosenCardsTableViewController.h>
 #import <coh/CHChosenCardsHeaderViewController.h>
+#import <coh/CHPlayersHeaderViewController.h>
 #import <coh/CHStaticTableHeaderWrapperViewController.h>
+#import <coh/CHStaticPlayersHeaderWrapperViewController.h>
+
 
 
 

@@ -24,26 +24,26 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
-    UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    [button addTarget:self action:@selector(buttonMethod:) forControlEvents:UIControlEventTouchDown];
-    [button setFrame:CGRectMake (0,0+navHeight, 60,44)];
-    [button setBackgroundColor:[UIColor whiteColor]];
-    [button setTitle:@"New Round" forState:UIControlStateNormal];
-    [button setTag:111];
-    [button sizeToFit];
-    [self.view addSubview:button];
-    button.center = CGPointMake(self.view.center.x, self.view.center.y - 44);
-    
+//    UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+//    [button addTarget:self action:@selector(buttonMethod:) forControlEvents:UIControlEventTouchDown];
+//    [button setFrame:CGRectMake (0,0+navHeight, 60,44)];
+//    [button setBackgroundColor:[UIColor whiteColor]];
+//    [button setTitle:@"New Round" forState:UIControlStateNormal];
+//    [button setTag:111];
+//    [button sizeToFit];
+//    [self.view addSubview:button];
+//    button.center = CGPointMake(self.view.center.x, self.view.center.y - 44);
+//    
 
     // Start Game
     [[CHGame game] startGame];
 
     
     // Players VC
-    self.playersVC = [[CHPlayersTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
-    [self.view addSubview:self.playersVC.view];
-    self.playersVC.parentNavController = self.navigationController;
-    self.playersVC.view.frame = CGRectMake(0, self.navigationController.navigationBar.frame.size.height, self.view.frame.size.width, self.view.frame.size.height / 2);
+    self.playersVCWrapper = [[CHStaticPlayersHeaderWrapperViewController alloc] initWithNavigationController:self.navigationController frame:self.view.frame];
+
+    [self.view addSubview:self.playersVCWrapper.view];
+
     
     // Chosen Cards Wrapper VC
     self.chosenVCWrapper = [[CHStaticTableHeaderWrapperViewController alloc] init];

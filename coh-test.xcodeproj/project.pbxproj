@@ -32,6 +32,10 @@
 		7D815F5F1A74A9920046A2BF /* CHArrayAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D815F5D1A74A9920046A2BF /* CHArrayAdditions.m */; };
 		7D86E2D11A78CF0F009A8168 /* CHChosenCardsTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D86E2CF1A78CF0F009A8168 /* CHChosenCardsTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D86E2D21A78CF0F009A8168 /* CHChosenCardsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D86E2D01A78CF0F009A8168 /* CHChosenCardsTableViewController.m */; };
+		7D875C071A945904000856EB /* CHStaticPlayersHeaderWrapperViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D875C051A945904000856EB /* CHStaticPlayersHeaderWrapperViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D875C081A945904000856EB /* CHStaticPlayersHeaderWrapperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D875C061A945904000856EB /* CHStaticPlayersHeaderWrapperViewController.m */; };
+		7D875C0B1A945AD6000856EB /* CHPlayersHeaderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D875C091A945AD6000856EB /* CHPlayersHeaderViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D875C0C1A945AD6000856EB /* CHPlayersHeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D875C0A1A945AD6000856EB /* CHPlayersHeaderViewController.m */; };
 		7D9EAFFA1A4E619000D6F4D8 /* coh-test.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D9EAFF91A4E619000D6F4D8 /* coh-test.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D9EB0001A4E619000D6F4D8 /* coh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D9EAFF41A4E619000D6F4D8 /* coh.framework */; };
 		7D9EB0071A4E619000D6F4D8 /* coh_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9EB0061A4E619000D6F4D8 /* coh_testTests.m */; };
@@ -87,6 +91,10 @@
 		7D815F5D1A74A9920046A2BF /* CHArrayAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHArrayAdditions.m; sourceTree = "<group>"; };
 		7D86E2CF1A78CF0F009A8168 /* CHChosenCardsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHChosenCardsTableViewController.h; sourceTree = "<group>"; };
 		7D86E2D01A78CF0F009A8168 /* CHChosenCardsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHChosenCardsTableViewController.m; sourceTree = "<group>"; };
+		7D875C051A945904000856EB /* CHStaticPlayersHeaderWrapperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHStaticPlayersHeaderWrapperViewController.h; sourceTree = "<group>"; };
+		7D875C061A945904000856EB /* CHStaticPlayersHeaderWrapperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHStaticPlayersHeaderWrapperViewController.m; sourceTree = "<group>"; };
+		7D875C091A945AD6000856EB /* CHPlayersHeaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHPlayersHeaderViewController.h; sourceTree = "<group>"; };
+		7D875C0A1A945AD6000856EB /* CHPlayersHeaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHPlayersHeaderViewController.m; sourceTree = "<group>"; };
 		7D9EAFF41A4E619000D6F4D8 /* coh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = coh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D9EAFF81A4E619000D6F4D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D9EAFF91A4E619000D6F4D8 /* coh-test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "coh-test.h"; sourceTree = "<group>"; };
@@ -177,6 +185,10 @@
 				7D86E2D01A78CF0F009A8168 /* CHChosenCardsTableViewController.m */,
 				7DB7CBEE1A8FFBEC00B4AEF9 /* CHStaticTableHeaderWrapperViewController.h */,
 				7DB7CBEF1A8FFBEC00B4AEF9 /* CHStaticTableHeaderWrapperViewController.m */,
+				7D875C051A945904000856EB /* CHStaticPlayersHeaderWrapperViewController.h */,
+				7D875C061A945904000856EB /* CHStaticPlayersHeaderWrapperViewController.m */,
+				7D875C091A945AD6000856EB /* CHPlayersHeaderViewController.h */,
+				7D875C0A1A945AD6000856EB /* CHPlayersHeaderViewController.m */,
 				7D79A3491A8F20B5007DE371 /* CHPlayersTableViewController.h */,
 				7D79A34A1A8F20B5007DE371 /* CHPlayersTableViewController.m */,
 				7DB7CBEA1A8FC25800B4AEF9 /* CHChosenCardsHeaderViewController.h */,
@@ -236,9 +248,11 @@
 				7D86E2D11A78CF0F009A8168 /* CHChosenCardsTableViewController.h in Headers */,
 				7D79A34B1A8F20B5007DE371 /* CHPlayersTableViewController.h in Headers */,
 				7D766F9A1A7365AE00AC8841 /* CHRound.h in Headers */,
+				7D875C0B1A945AD6000856EB /* CHPlayersHeaderViewController.h in Headers */,
 				7DB7CBF01A8FFBEC00B4AEF9 /* CHStaticTableHeaderWrapperViewController.h in Headers */,
 				7DB7CBEC1A8FC25800B4AEF9 /* CHChosenCardsHeaderViewController.h in Headers */,
 				7D7343201A761AC9000D0693 /* CHPlayerCardsTableViewController.h in Headers */,
+				7D875C071A945904000856EB /* CHStaticPlayersHeaderWrapperViewController.h in Headers */,
 				7D766F9E1A7365BE00AC8841 /* CHGame.h in Headers */,
 				7D766FA21A7365D200AC8841 /* CHPlayer.h in Headers */,
 				7D815F5E1A74A9920046A2BF /* CHArrayAdditions.h in Headers */,
@@ -351,10 +365,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D766FA31A7365D200AC8841 /* CHPlayer.m in Sources */,
+				7D875C081A945904000856EB /* CHStaticPlayersHeaderWrapperViewController.m in Sources */,
 				7D9EB0131A4E61C800D6F4D8 /* CHBlackDeck.m in Sources */,
 				7D766F971A73620000AC8841 /* CHHand.m in Sources */,
 				7D9EB0221A4F172E00D6F4D8 /* CHDeck.m in Sources */,
 				7D766F8D1A730AB600AC8841 /* CHBlackCard.m in Sources */,
+				7D875C0C1A945AD6000856EB /* CHPlayersHeaderViewController.m in Sources */,
 				7D79A34C1A8F20B5007DE371 /* CHPlayersTableViewController.m in Sources */,
 				7D766F931A730EB900AC8841 /* CHCardView.m in Sources */,
 				7D815F5F1A74A9920046A2BF /* CHArrayAdditions.m in Sources */,

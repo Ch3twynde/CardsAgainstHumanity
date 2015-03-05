@@ -117,6 +117,10 @@ static CHGame *game;
 }
 - (void)nextRound {
     
+    for ( CHPlayer *player in self.players ) {
+        player.state = CHPlayerWhitePlayer;
+    }
+    
     CHRound *newRound = [CHRound new];
     int blackPlayerIndex = arc4random() % self.players.count;
     newRound.blackPlayer = self.players[blackPlayerIndex];
@@ -136,6 +140,8 @@ static CHGame *game;
     [self.rounds addObject:newRound];
     
     [newRound beginRound];
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"CHNextRoundNotification" object:self];
 }
 - (CHPlayer *)playerByName:(NSString *)name {
     for ( CHPlayer *player in self.players ) {

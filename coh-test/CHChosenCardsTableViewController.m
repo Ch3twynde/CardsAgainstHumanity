@@ -29,6 +29,8 @@
     self.tableView.delegate = self;
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"chosenCard"];
     
+    [[NSNotificationCenter defaultCenter] addObserver:self.tableView selector:@selector(reloadData) name:@"CHNextRoundNotification" object:nil];
+
 }
 
 - (void)didReceiveMemoryWarning {

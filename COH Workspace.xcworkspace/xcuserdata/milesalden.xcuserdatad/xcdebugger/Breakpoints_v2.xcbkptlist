@@ -6,32 +6,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "coh-test/CHStaticTableHeaderWrapperViewController.m"
-            timestampString = "445644591.239928"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "-viewDidLoad"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "coh-test/CHChosenCardsHeaderViewController.m"
-            timestampString = "445646186.401828"
+            filePath = "coh-test/CHGame.m"
+            timestampString = "447226566.590394"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
-            landmarkName = "-genContent"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
+            landmarkName = "-nextRound"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

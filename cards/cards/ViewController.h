@@ -15,7 +15,7 @@
 @property (strong) CHWhiteDeck *whiteDeck;
 @property (strong) CHBlackDeck *blackDeck;
 @property (strong) CHStaticTableHeaderWrapperViewController *chosenVCWrapper;
-@property (strong) CHPlayersTableViewController *playersVC;
+@property (strong) CHStaticPlayersHeaderWrapperViewController *playersVCWrapper;
 
 
 @end
