@@ -33,6 +33,9 @@
     CGFloat height = self.fixedHeaderController.headerLabel.frame.size.height;
     self.chosenVC.view.frame = CGRectMake(0, height, self.view.frame.size.width, self.view.frame.size.height - height);
     
+    [[NSNotificationCenter defaultCenter] addObserverForName:@"CHNextRoundNotification" object:nil queue:[NSOperationQueue currentQueue] usingBlock:^(NSNotification * _Nonnull note) {
+        self.fixedHeaderController.headerLabel.text = [[[[CHGame game] currentRound] blackCard] message];
+    }];
 }
 
 - (void)didReceiveMemoryWarning {

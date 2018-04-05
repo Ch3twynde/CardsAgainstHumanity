@@ -4,7 +4,4 @@
    <FileRef
       location = "group:cards/cards.xcodeproj">
    </FileRef>
-   <FileRef
-      location = "group:coh-test.xcodeproj">
-   </FileRef>
 </Workspace>

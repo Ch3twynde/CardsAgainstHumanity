@@ -7,16 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D7384C42076E43F005571E2 /* coh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7384BF2076D9D3005571E2 /* coh.framework */; };
+		7D7384C62076E442005571E2 /* coh.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7384BF2076D9D3005571E2 /* coh.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7D7384CB2076E586005571E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D7384CA2076E586005571E2 /* Main.storyboard */; };
 		7D9EB0341A4F25CE00D6F4D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9EB0331A4F25CE00D6F4D8 /* main.m */; };
 		7D9EB0371A4F25CE00D6F4D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9EB0361A4F25CE00D6F4D8 /* AppDelegate.m */; };
 		7D9EB03A1A4F25CE00D6F4D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9EB0391A4F25CE00D6F4D8 /* ViewController.m */; };
 		7D9EB03F1A4F25CE00D6F4D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D9EB03E1A4F25CE00D6F4D8 /* Images.xcassets */; };
 		7D9EB0421A4F25CE00D6F4D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D9EB0401A4F25CE00D6F4D8 /* LaunchScreen.xib */; };
 		7D9EB04E1A4F25CE00D6F4D8 /* cardsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D9EB04D1A4F25CE00D6F4D8 /* cardsTests.m */; };
-		7D9EB0581A4F262600D6F4D8 /* coh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D9EB0571A4F262600D6F4D8 /* coh.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		7D7384BE2076D9D3005571E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D7384B92076D9D3005571E2 /* coh-test.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7D9EAFF41A4E619000D6F4D8;
+			remoteInfo = coh;
+		};
+		7D7384C02076D9D3005571E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D7384B92076D9D3005571E2 /* coh-test.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7D9EAFFF1A4E619000D6F4D8;
+			remoteInfo = "coh-testTests";
+		};
+		7D7384C22076D9D9005571E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D7384B92076D9D3005571E2 /* coh-test.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D9EAFF31A4E619000D6F4D8;
+			remoteInfo = coh;
+		};
+		7D7384C72076E442005571E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D7384B92076D9D3005571E2 /* coh-test.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D9EAFF31A4E619000D6F4D8;
+			remoteInfo = coh;
+		};
 		7D9EB0481A4F25CE00D6F4D8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7D9EB0261A4F25CE00D6F4D8 /* Project object */;
@@ -26,7 +56,23 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		7D7384C92076E442005571E2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7D7384C62076E442005571E2 /* coh.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		7D7384B92076D9D3005571E2 /* coh-test.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "coh-test.xcodeproj"; path = "../coh-test.xcodeproj"; sourceTree = "<group>"; };
+		7D7384CA2076E586005571E2 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		7D9EB02E1A4F25CE00D6F4D8 /* cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D9EB0321A4F25CE00D6F4D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D9EB0331A4F25CE00D6F4D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -39,7 +85,6 @@
 		7D9EB0471A4F25CE00D6F4D8 /* cardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D9EB04C1A4F25CE00D6F4D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D9EB04D1A4F25CE00D6F4D8 /* cardsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cardsTests.m; sourceTree = "<group>"; };
-		7D9EB0571A4F262600D6F4D8 /* coh.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = coh.framework; path = "../../../Library/Developer/Xcode/DerivedData/COH_Workspace-cuoliwghigrdrkgndhzqxdhgzmmk/Build/Products/Debug-iphoneos/coh.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D9EB0581A4F262600D6F4D8 /* coh.framework in Frameworks */,
+				7D7384C42076E43F005571E2 /* coh.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,13 +106,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D1D0CF620733D3A00583BD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D7384B92076D9D3005571E2 /* coh-test.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D7384BA2076D9D3005571E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D7384BF2076D9D3005571E2 /* coh.framework */,
+				7D7384C12076D9D3005571E2 /* coh-testTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		7D9EB0251A4F25CE00D6F4D8 = {
 			isa = PBXGroup;
 			children = (
-				7D9EB0571A4F262600D6F4D8 /* coh.framework */,
 				7D9EB0301A4F25CE00D6F4D8 /* cards */,
 				7D9EB04A1A4F25CE00D6F4D8 /* cardsTests */,
 				7D9EB02F1A4F25CE00D6F4D8 /* Products */,
+				7D1D0CF620733D3A00583BD8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +151,7 @@
 				7D9EB0391A4F25CE00D6F4D8 /* ViewController.m */,
 				7D9EB03E1A4F25CE00D6F4D8 /* Images.xcassets */,
 				7D9EB0401A4F25CE00D6F4D8 /* LaunchScreen.xib */,
+				7D7384CA2076E586005571E2 /* Main.storyboard */,
 				7D9EB0311A4F25CE00D6F4D8 /* Supporting Files */,
 			);
 			path = cards;
@@ -130,10 +193,13 @@
 				7D9EB02A1A4F25CE00D6F4D8 /* Sources */,
 				7D9EB02B1A4F25CE00D6F4D8 /* Frameworks */,
 				7D9EB02C1A4F25CE00D6F4D8 /* Resources */,
+				7D7384C92076E442005571E2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7D7384C32076D9D9005571E2 /* PBXTargetDependency */,
+				7D7384C82076E442005571E2 /* PBXTargetDependency */,
 			);
 			name = cards;
 			productName = cards;
@@ -169,6 +235,7 @@
 				TargetAttributes = {
 					7D9EB02D1A4F25CE00D6F4D8 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 7RS6GEHA65;
 					};
 					7D9EB0461A4F25CE00D6F4D8 = {
 						CreatedOnToolsVersion = 6.1;
@@ -187,6 +254,12 @@
 			mainGroup = 7D9EB0251A4F25CE00D6F4D8;
 			productRefGroup = 7D9EB02F1A4F25CE00D6F4D8 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7D7384BA2076D9D3005571E2 /* Products */;
+					ProjectRef = 7D7384B92076D9D3005571E2 /* coh-test.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				7D9EB02D1A4F25CE00D6F4D8 /* cards */,
@@ -195,11 +268,29 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		7D7384BF2076D9D3005571E2 /* coh.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = coh.framework;
+			remoteRef = 7D7384BE2076D9D3005571E2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7D7384C12076D9D3005571E2 /* coh-testTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "coh-testTests.xctest";
+			remoteRef = 7D7384C02076D9D3005571E2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		7D9EB02C1A4F25CE00D6F4D8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D7384CB2076E586005571E2 /* Main.storyboard in Resources */,
 				7D9EB0421A4F25CE00D6F4D8 /* LaunchScreen.xib in Resources */,
 				7D9EB03F1A4F25CE00D6F4D8 /* Images.xcassets in Resources */,
 			);
@@ -236,6 +327,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		7D7384C32076D9D9005571E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = coh;
+			targetProxy = 7D7384C22076D9D9005571E2 /* PBXContainerItemProxy */;
+		};
+		7D7384C82076E442005571E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = coh;
+			targetProxy = 7D7384C72076E442005571E2 /* PBXContainerItemProxy */;
+		};
 		7D9EB0491A4F25CE00D6F4D8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 7D9EB02D1A4F25CE00D6F4D8 /* cards */;
@@ -337,12 +438,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/COH_Workspace-cuoliwghigrdrkgndhzqxdhgzmmk/Build/Products/Debug-iphoneos",
-				);
+				DEVELOPMENT_TEAM = 7RS6GEHA65;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = cards/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mile.coh.cards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -351,12 +452,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/COH_Workspace-cuoliwghigrdrkgndhzqxdhgzmmk/Build/Products/Debug-iphoneos",
-				);
+				DEVELOPMENT_TEAM = 7RS6GEHA65;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = cards/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mile.coh.cards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

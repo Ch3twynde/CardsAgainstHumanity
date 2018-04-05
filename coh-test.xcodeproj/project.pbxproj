@@ -7,43 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7D4DCB1B1AB375E20067FEA0 /* CHArrayAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4DCAE01AB375E20067FEA0 /* CHArrayAdditions.h */; };
+		7D4DCB1B1AB375E20067FEA0 /* CHArrayAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4DCAE01AB375E20067FEA0 /* CHArrayAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D4DCB1C1AB375E20067FEA0 /* CHArrayAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DCAE11AB375E20067FEA0 /* CHArrayAdditions.m */; };
-		7D4DCB1D1AB375E20067FEA0 /* CHBlackCard.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4DCAE51AB375E20067FEA0 /* CHBlackCard.h */; };
+		7D4DCB1D1AB375E20067FEA0 /* CHBlackCard.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4DCAE51AB375E20067FEA0 /* CHBlackCard.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D4DCB1E1AB375E20067FEA0 /* CHBlackCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DCAE61AB375E20067FEA0 /* CHBlackCard.m */; };
-		7D4DCB1F1AB375E20067FEA0 /* CHCard.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4DCAE71AB375E20067FEA0 /* CHCard.h */; };
+		7D4DCB1F1AB375E20067FEA0 /* CHCard.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4DCAE71AB375E20067FEA0 /* CHCard.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D4DCB201AB375E20067FEA0 /* CHCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DCAE81AB375E20067FEA0 /* CHCard.m */; };
-		7D4DCB211AB375E20067FEA0 /* CHWhiteCard.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4DCAEA1AB375E20067FEA0 /* CHWhiteCard.h */; };
+		7D4DCB211AB375E20067FEA0 /* CHWhiteCard.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4DCAEA1AB375E20067FEA0 /* CHWhiteCard.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D4DCB221AB375E20067FEA0 /* CHWhiteCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DCAEB1AB375E20067FEA0 /* CHWhiteCard.m */; };
-		7D4DCB231AB375E20067FEA0 /* CHGame.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4DCAEC1AB375E20067FEA0 /* CHGame.h */; };
+		7D4DCB231AB375E20067FEA0 /* CHGame.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4DCAEC1AB375E20067FEA0 /* CHGame.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D4DCB241AB375E20067FEA0 /* CHGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DCAED1AB375E20067FEA0 /* CHGame.m */; };
-		7D4DCB251AB375E20067FEA0 /* CHBlackDeck.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4DCAF01AB375E20067FEA0 /* CHBlackDeck.h */; };
+		7D4DCB251AB375E20067FEA0 /* CHBlackDeck.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4DCAF01AB375E20067FEA0 /* CHBlackDeck.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D4DCB261AB375E20067FEA0 /* CHBlackDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DCAF11AB375E20067FEA0 /* CHBlackDeck.m */; };
-		7D4DCB271AB375E20067FEA0 /* CHDeck.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4DCAF21AB375E20067FEA0 /* CHDeck.h */; };
+		7D4DCB271AB375E20067FEA0 /* CHDeck.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4DCAF21AB375E20067FEA0 /* CHDeck.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D4DCB281AB375E20067FEA0 /* CHDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DCAF31AB375E20067FEA0 /* CHDeck.m */; };
-		7D4DCB291AB375E20067FEA0 /* CHWhiteDeck.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4DCAF51AB375E20067FEA0 /* CHWhiteDeck.h */; };
+		7D4DCB291AB375E20067FEA0 /* CHWhiteDeck.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4DCAF51AB375E20067FEA0 /* CHWhiteDeck.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D4DCB2A1AB375E20067FEA0 /* CHWhiteDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DCAF61AB375E20067FEA0 /* CHWhiteDeck.m */; };
-		7D4DCB2B1AB375E20067FEA0 /* CHHand.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4DCAF81AB375E20067FEA0 /* CHHand.h */; };
+		7D4DCB2B1AB375E20067FEA0 /* CHHand.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4DCAF81AB375E20067FEA0 /* CHHand.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D4DCB2C1AB375E20067FEA0 /* CHHand.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DCAF91AB375E20067FEA0 /* CHHand.m */; };
-		7D4DCB2D1AB375E20067FEA0 /* CHPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4DCAFB1AB375E20067FEA0 /* CHPlayer.h */; };
+		7D4DCB2D1AB375E20067FEA0 /* CHPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4DCAFB1AB375E20067FEA0 /* CHPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D4DCB2E1AB375E20067FEA0 /* CHPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DCAFC1AB375E20067FEA0 /* CHPlayer.m */; };
-		7D4DCB2F1AB375E20067FEA0 /* CHRound.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4DCAFE1AB375E20067FEA0 /* CHRound.h */; };
+		7D4DCB2F1AB375E20067FEA0 /* CHRound.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4DCAFE1AB375E20067FEA0 /* CHRound.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D4DCB301AB375E20067FEA0 /* CHRound.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DCAFF1AB375E20067FEA0 /* CHRound.m */; };
-		7D4DCB311AB375E20067FEA0 /* CHCardView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4DCB011AB375E20067FEA0 /* CHCardView.h */; };
+		7D4DCB311AB375E20067FEA0 /* CHCardView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4DCB011AB375E20067FEA0 /* CHCardView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D4DCB321AB375E20067FEA0 /* CHCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DCB021AB375E20067FEA0 /* CHCardView.m */; };
-		7D4DCB331AB375E20067FEA0 /* CHChosenCardsTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4DCB071AB375E20067FEA0 /* CHChosenCardsTableViewController.h */; };
+		7D4DCB331AB375E20067FEA0 /* CHChosenCardsTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4DCB071AB375E20067FEA0 /* CHChosenCardsTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D4DCB341AB375E20067FEA0 /* CHChosenCardsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DCB081AB375E20067FEA0 /* CHChosenCardsTableViewController.m */; };
-		7D4DCB351AB375E20067FEA0 /* CHChosenCardsHeaderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4DCB0A1AB375E20067FEA0 /* CHChosenCardsHeaderViewController.h */; };
+		7D4DCB351AB375E20067FEA0 /* CHChosenCardsHeaderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4DCB0A1AB375E20067FEA0 /* CHChosenCardsHeaderViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D4DCB361AB375E20067FEA0 /* CHChosenCardsHeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DCB0B1AB375E20067FEA0 /* CHChosenCardsHeaderViewController.m */; };
-		7D4DCB371AB375E20067FEA0 /* CHStaticTableHeaderWrapperViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4DCB0C1AB375E20067FEA0 /* CHStaticTableHeaderWrapperViewController.h */; };
+		7D4DCB371AB375E20067FEA0 /* CHStaticTableHeaderWrapperViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4DCB0C1AB375E20067FEA0 /* CHStaticTableHeaderWrapperViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D4DCB381AB375E20067FEA0 /* CHStaticTableHeaderWrapperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DCB0D1AB375E20067FEA0 /* CHStaticTableHeaderWrapperViewController.m */; };
-		7D4DCB391AB375E20067FEA0 /* CHPlayerCardsTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4DCB0F1AB375E20067FEA0 /* CHPlayerCardsTableViewController.h */; };
+		7D4DCB391AB375E20067FEA0 /* CHPlayerCardsTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4DCB0F1AB375E20067FEA0 /* CHPlayerCardsTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D4DCB3A1AB375E20067FEA0 /* CHPlayerCardsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DCB101AB375E20067FEA0 /* CHPlayerCardsTableViewController.m */; };
-		7D4DCB3B1AB375E20067FEA0 /* CHStaticPlayersHeaderWrapperViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4DCB131AB375E20067FEA0 /* CHStaticPlayersHeaderWrapperViewController.h */; };
+		7D4DCB3B1AB375E20067FEA0 /* CHStaticPlayersHeaderWrapperViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4DCB131AB375E20067FEA0 /* CHStaticPlayersHeaderWrapperViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D4DCB3C1AB375E20067FEA0 /* CHStaticPlayersHeaderWrapperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DCB141AB375E20067FEA0 /* CHStaticPlayersHeaderWrapperViewController.m */; };
-		7D4DCB3D1AB375E20067FEA0 /* CHPlayersTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4DCB161AB375E20067FEA0 /* CHPlayersTableViewController.h */; };
+		7D4DCB3D1AB375E20067FEA0 /* CHPlayersTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4DCB161AB375E20067FEA0 /* CHPlayersTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D4DCB3E1AB375E20067FEA0 /* CHPlayersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DCB171AB375E20067FEA0 /* CHPlayersTableViewController.m */; };
-		7D4DCB3F1AB375E20067FEA0 /* CHPlayersHeaderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4DCB191AB375E20067FEA0 /* CHPlayersHeaderViewController.h */; };
+		7D4DCB3F1AB375E20067FEA0 /* CHPlayersHeaderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4DCB191AB375E20067FEA0 /* CHPlayersHeaderViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D4DCB401AB375E20067FEA0 /* CHPlayersHeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4DCB1A1AB375E20067FEA0 /* CHPlayersHeaderViewController.m */; };
 		7D766F841A72F8E800AC8841 /* Black Pages in Resources */ = {isa = PBXBuildFile; fileRef = 7D766F821A72F8E800AC8841 /* Black Pages */; };
 		7D766F851A72F8E800AC8841 /* White Pages in Resources */ = {isa = PBXBuildFile; fileRef = 7D766F831A72F8E800AC8841 /* White Pages */; };
@@ -422,7 +422,6 @@
 				7D4DCB351AB375E20067FEA0 /* CHChosenCardsHeaderViewController.h in Headers */,
 				7D4DCB291AB375E20067FEA0 /* CHWhiteDeck.h in Headers */,
 				7D4DCB1F1AB375E20067FEA0 /* CHCard.h in Headers */,
-				7D9EB05A1A4F270D00D6F4D8 /* CardsAgainstHumanity.h in Headers */,
 				7D4DCB251AB375E20067FEA0 /* CHBlackDeck.h in Headers */,
 				7D4DCB1D1AB375E20067FEA0 /* CHBlackCard.h in Headers */,
 				7D4DCB231AB375E20067FEA0 /* CHGame.h in Headers */,
@@ -430,7 +429,6 @@
 				7D4DCB3D1AB375E20067FEA0 /* CHPlayersTableViewController.h in Headers */,
 				7D4DCB371AB375E20067FEA0 /* CHStaticTableHeaderWrapperViewController.h in Headers */,
 				7D4DCB211AB375E20067FEA0 /* CHWhiteCard.h in Headers */,
-				7D9EAFFA1A4E619000D6F4D8 /* coh-test.h in Headers */,
 				7D4DCB2D1AB375E20067FEA0 /* CHPlayer.h in Headers */,
 				7D4DCB1B1AB375E20067FEA0 /* CHArrayAdditions.h in Headers */,
 				7D4DCB331AB375E20067FEA0 /* CHChosenCardsTableViewController.h in Headers */,
@@ -438,6 +436,8 @@
 				7D4DCB2F1AB375E20067FEA0 /* CHRound.h in Headers */,
 				7D4DCB2B1AB375E20067FEA0 /* CHHand.h in Headers */,
 				7D4DCB271AB375E20067FEA0 /* CHDeck.h in Headers */,
+				7D9EB05A1A4F270D00D6F4D8 /* CardsAgainstHumanity.h in Headers */,
+				7D9EAFFA1A4E619000D6F4D8 /* coh-test.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

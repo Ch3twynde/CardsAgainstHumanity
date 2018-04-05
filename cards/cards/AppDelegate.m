@@ -19,18 +19,18 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    ViewController *vc = [[ViewController alloc] init];
+//    ViewController *vc = [[ViewController alloc] init];
 //    UIView *view = [[UIView alloc] initWithFrame:self.window.frame];
 //    vc.view = view;
     
-    self.navigationController = [[UINavigationController alloc] init];
-    [self.navigationController pushViewController:vc animated:YES];
-    
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//    self.navigationController = [[UINavigationController alloc] init];
+//    [self.navigationController pushViewController:vc animated:YES];
+//
+//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 //    self.window.rootViewController = self.navigationController;
-    [self.window makeKeyAndVisible];
-    [self.window addSubview:self.navigationController.view];
-    
+//    [self.window makeKeyAndVisible];
+//    [self.window addSubview:self.navigationController.view];
+//
     return YES;
 }
 
